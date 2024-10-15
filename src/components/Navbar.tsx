@@ -4,15 +4,20 @@ import { NavLink } from 'react-router-dom';
 const CustomLink: FC<{name: string, path: string}> = ({name, path}) => <NavLink className={({isActive}) => isActive ? 'md:border-b-2 border-white md:py-7 flex border-r-2 md:border-r-0 ' : ' flex '} to={path}>{name}</NavLink>
 
 export default function Navbar() {
-  function showSideBar(){
-    const sideBar = document.getElementById("sidebar")
-    sideBar.style.display = "flex"
+  function showSideBar(): void {
+    const sideBar = document.getElementById("sidebar");
+    if (sideBar) {
+      sideBar.style.display = "flex";
+    }
   }
-
-  function hideSideBar(){
-    const sideBar = document.getElementById("sidebar")
-    sideBar.style.display = "none"
+  
+  function hideSideBar(): void {
+    const sideBar = document.getElementById("sidebar");
+    if (sideBar) {
+      sideBar.style.display = "none";
+    }
   }
+  
 
   return (
     <>
