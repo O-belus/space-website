@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types';
-import menu from '../../public/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg'
+
 
 export default function Home(props) {
 

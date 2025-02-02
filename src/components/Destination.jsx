@@ -27,7 +27,7 @@ export default function Destination(props) {
                     </div>
                     <div className=' w-full h-full flex flex-col lg:flex-row lg:w-2/3 lg:mx-auto lg:gap-20 '>
                         <section className=' w-full p-0 h-1/3 lg:mt-4 md:h-2/5 '>
-                            <img className=' w-36 h-36 mt-8 mx-auto md:mt-6 md:h-72 md:w-72 lg:mt-24 lg:h-96 lg:w-96 ' src={info.images.webp} alt={`image of ${info.name}`} />
+                            <img className=' w-36 h-36 mt-8 mx-auto md:mt-6 md:h-72 md:w-72 lg:mt-24 lg:h-96 lg:w-96 ' src={info.images.png} alt={`image of ${info.name}`} />
                         </section>
                         <section className=' w-full md:mt-10 lg:mt-20 '>
                             <nav className=' w-4/5 h-12 text-xs mx-auto flex items-center justify-between md:w-1/3 lg:text-lg lg:w-2/3 lg:mx-0  '>
