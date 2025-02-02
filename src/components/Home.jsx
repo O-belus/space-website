@@ -12,9 +12,9 @@ export default function Home(props) {
                 <section className="w-full p-0 h-1/2 lg:mt-40 ">
                     <h2 className="text-base lg:text-left lg:pl-60 sm:text-xl text-center mb-4">SO, YOU WANT TO TRAVEL TO</h2>
                     <h3 className="text-5xl sm:text-8xl lg:text-left lg:pl-60 text-center mb-6">SPACE</h3>
-                    <p className='text-xs lg:text-left lg:pl-60 sm:px-44 text-center px-5'>Let's face it; if you want to go to space, you might as well genuinely go to 
+                    <p className='text-xs lg:text-left lg:pl-60 sm:px-44 text-center px-5'>Let`&apos;`s face it; if you want to go to space, you might as well genuinely go to 
                         outer space and not hover kind of on the edge of it. Well sit back, and relax 
-                        because we'll give you a truly out of this world experience!</p>
+                        because we`&apos;`ll give you a truly out of this world experience!</p>
                 </section>
                 <section className=" h-1/2 lg:mt-40 w-full ">
                     <button className='text-xl sm:text-2xl lg:text-4xl lg:mt-0 mt-14  ml-auto mr-auto block w-36 h-36 lg:h-[272px] lg:w-[272px] rounded-full bg-white text-black p-18  duration-500 hover:shadow-[0px_0px_207px_68px_rgba(255,_255,_255,_0.4)]'><Link to='/destination'>Explore</Link></button>
